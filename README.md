@@ -2,8 +2,7 @@
 
 Update your homebrew and pip (part of the python package in homebrew), then install the virtual environment for better management of python libraries.
 
-```
-#!shell
+```shell
 
 brew update
 
@@ -14,8 +13,7 @@ pip install virtualenvwrapper
 
 Configure the WORKON folder, write it to `~/.bash_profile`.
 
-```
-#!shell
+```shell
 
 export WORKON_HOME=~/coder/envs
 mkdir -p $WORKON_HOME
@@ -24,8 +22,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 
 Create a new environment for Tensorflow.
-```
-#!shell
+```shell
 
 mkvirtualenv tf
 ```
@@ -33,8 +30,7 @@ mkvirtualenv tf
 Install Tensorflow in the virtual environment. (Note the virtualenv indicator before $) Then check the version.
 
 
-```
-#!shell
+```shell
 
 (tf)$ pip install --upgrade tensorflow
 (tf)$ python -c "import tensorflow; print(tensorflow.__version__)"
@@ -44,8 +40,7 @@ Now you can do anything in the environment without messing up your system-wide e
 
 Enter the environment in the future.
 
-```
-#!shell
+```shell
 workon tf
 ```
 
