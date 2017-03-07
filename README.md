@@ -44,5 +44,9 @@ Enter the environment in the future.
 workon tf
 ```
 
+Leave the environment.
+```shell
+deactivate
+```
 
 
