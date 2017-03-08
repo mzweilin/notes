@@ -1,5 +1,21 @@
 # notes
 
+
+## Installation on Ubuntu
+
+Update your apt-get and pip (part of the python package in homebrew), then install the virtual environment for better management of python libraries.
+
+```shell
+sudo apt-get update
+sudo apt-get install python-pip python-dev python-virtualenv
+
+sudo pip install --upgrade pip
+
+pip install --user virtualenvwrapper
+```
+
+## Installation on Mac
+
 Update your homebrew and pip (part of the python package in homebrew), then install the virtual environment for better management of python libraries.
 
 ```shell
@@ -10,6 +26,8 @@ brew upgrade python
 pip install virtualenv
 pip install virtualenvwrapper
 ```
+
+## The common steps
 
 Configure the WORKON folder, write it to `~/.bash_profile`.
 
