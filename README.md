@@ -3,7 +3,7 @@
 
 ## Installation on Ubuntu
 
-Update your apt-get and pip (part of the python package in homebrew), then install the virtual environment for better management of python libraries.
+Update your apt-get and pip, then install the virtual environment for the easier management of python libraries.
 
 ```shell
 sudo apt-get update
@@ -16,7 +16,7 @@ pip install --user virtualenvwrapper
 
 ## Installation on Mac
 
-Update your homebrew and pip (part of the python package in homebrew), then install the virtual environment for better management of python libraries.
+Update your homebrew and pip (part of the python package in homebrew), then install the virtual environment for the easier management of python libraries.
 
 ```shell
 
